@@ -1,0 +1,49 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:213869988284:function:30e0138e-74b6-4ea3-abb1-4b626d70d592:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Random Bird Calls",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/bd70/4a48b61dfdab4cc4b63226e40762101e/APP_ICON?versionId=6kN5AAK_MJef7_GdFdWWxZjrVa276O6j&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190801T063444Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=98639ae3968af119f6caf5724e275f0cbdd273bc9e786c369074937f6d66ff77",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/97a7/2847541db4d84241a94046fac3344655/APP_ICON_LARGE?versionId=FOgKo2_qS.bA2op1RE96IAih668aaLHl&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190801T063444Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=eecc0925a51354b79c48aceec89d98ecd086c62870882a00167ac019f56e575e",
+          "summary": "Hear birds from around the US.",
+          "description": "Sound files courtesy of National Parks Service.",
+          "examplePhrases": [
+            "Alexa open random bird calls",
+            "Alexa play random bird call"
+          ],
+          "keywords": [
+            "bird",
+            "calls",
+            "random",
+            "birds",
+            "songs"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "distributionMode": "PUBLIC",
+      "testingInstructions": "Simply say, \"Alexa open random bird calls\". Then once you hear the prompt, say \"Yes\".",
+      "category": "PETS_AND_ANIMAL",
+      "distributionCountries": []
+    }
+  }
+}

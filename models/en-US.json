@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "random bird call",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "BirdCallIntent",
+          "slots": [],
+          "samples": [
+            "open random bird calls",
+            "play random bird calls",
+            "play random bird call"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
