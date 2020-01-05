@@ -57,11 +57,9 @@ const HelpIntentHandler = {
             && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speechText = 'You can say hello to me! How can I help?';
-
         return handlerInput.responseBuilder
-            .speak(speechText)
-            .reprompt(speechText)
+            .speak('You can say play a random bird call or cancel! How can I help you?')
+            .reprompt('How can I help you?')
             .getResponse();
     }
 };
